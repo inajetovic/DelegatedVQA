@@ -22,12 +22,12 @@ from graphix.sim.statevec import StatevectorBackend
 from graphix.simulator import MeasureMethod, PatternSimulator
 from graphix.states import BasicStates
 
-from veriphix.trappifiedCanvas import TrappifiedCanvas
+from trappifiedCanvas import TrappifiedCanvas
 
 if TYPE_CHECKING:
     from graphix.sim.base_backend import Backend
 
-    from veriphix.trappifiedCanvas import Trap
+    from trappifiedCanvas import Trap
 
 
 # TODO update docstring
