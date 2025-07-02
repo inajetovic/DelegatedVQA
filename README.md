@@ -1,7 +1,7 @@
 # DelegatedVQA
 Repository to reproduce the veriphix simulations in https://arxiv.org/abs/2504.15410
 
-Git clone https://github.com/qat-inria/veriphix
+Checkout Veriphix: https://github.com/qat-inria/veriphix
 
 `client_vqa.py` Modified version of the original veriphix's `client.py`.
 
