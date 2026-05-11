@@ -163,8 +163,8 @@ class e2e():
                 #print(np.linalg.norm(noisless_grad,ord=1))
             else:
                 out=self.grad_computation(outcomes_dicts)
-                grad_abs_err=np.linalg.norm(out - noisless_grad,ord=1)
-                grad_rel_err=np.linalg.norm(out - noisless_grad,ord=1)/np.linalg.norm(noisless_grad,ord=1)
+                grad_abs_err=np.linalg.norm(out - noisless_grad,ord=2)
+                grad_rel_err=np.linalg.norm(out - noisless_grad,ord=2)/np.linalg.norm(noisless_grad,ord=2)
                 if show:
                     print(f"    Noise: {p} Gradient Abs error {grad_abs_err}")
                     print(f"                Gradient Rel error {grad_rel_err}")

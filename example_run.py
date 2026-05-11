@@ -12,7 +12,7 @@ p_values = [0,.1, .3, .7,]
 t_list=[50]
 shots_list=[1000]
 angles=[np.pi/36 , np.pi/6, np.pi/2]
-n_runs=5
+n_runs=10
 
 for angle in angles:
     for shots in shots_list:
